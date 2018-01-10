@@ -1,4 +1,6 @@
 # cfp-magick
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick?ref=badge_shield)
+
 
 CLI applications that shows JavaScript and Web conferences with open calls for papers
 
@@ -53,3 +55,5 @@ See also the list of [contributors](https://github.com/ascidiisco/cfp-magick/con
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick?ref=badge_large)
