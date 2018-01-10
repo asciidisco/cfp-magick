@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const main = require('./index')
 
 // runs the fetcher/reducer and outputs the data
