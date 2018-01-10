@@ -1,5 +1,19 @@
 # cfp-magick
 
+[![Build Status](https://travis-ci.org/asciidisco/cfp-magick.svg?branch=master)](https://travis-ci.org/asciidisco/cfp-magick)
+[![npm](https://img.shields.io/npm/v/cfp-magick.svg)](https://www.npmjs.com/package/cfp-magick)
+[![dependencies Status](https://david-dm.org/asciidisco/cfp-magick/status.svg)](https://david-dm.org/asciidisco/cfp-magick)
+[![dependencies Status](https://david-dm.org/asciidisco/cfp-magick/dev-status.svg)](https://david-dm.org/asciidisco/cfp-magick#info=devDependencies)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/cef0e6703b53514c4863/test_coverage)](https://codeclimate.com/github/asciidisco/cfp-magick/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cef0e6703b53514c4863/maintainability)](https://codeclimate.com/github/asciidisco/cfp-magick/maintainability)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick?ref=badge_shield)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/greenkeeperio/greenkeeper.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/asciidisco/cfp-magick/badge.svg)](https://snyk.io/test/github/asciidisco/cfp-magick)
+
 CLI applications that shows JavaScript and Web conferences with open calls for papers
 
 ### Installing
