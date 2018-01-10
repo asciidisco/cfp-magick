@@ -16,6 +16,8 @@
 
 CLI applications that shows JavaScript and Web conferences with open calls for papers
 
+![Demo](https://raw.githubusercontent.com/asciidisco/cfp-magick/master/demo.gif)
+
 ### Installing
 
 Install the application via `npm` or use it on demand via `npx`:
