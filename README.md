@@ -1,4 +1,6 @@
 # cfp-magick
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick?ref=badge_shield)
+
 
 [![Build Status](https://travis-ci.org/asciidisco/cfp-magick.svg?branch=master)](https://travis-ci.org/asciidisco/cfp-magick)
 [![npm](https://img.shields.io/npm/v/cfp-magick.svg)](https://www.npmjs.com/package/cfp-magick)
@@ -67,3 +69,5 @@ See also the list of [contributors](https://github.com/ascidiisco/cfp-magick/con
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fasciidisco%2Fcfp-magick?ref=badge_large)
