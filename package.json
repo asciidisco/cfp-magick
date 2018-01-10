@@ -3,9 +3,17 @@
   "version": "0.0.0-development",
   "description": "Show JavaScript and Web conferences with open calls for papers in your terminal",
   "main": "index.js",
-  "bin": {},
+  "bin": {
+    "cfp-magick": "./cli.js"
+  },
   "scripts": {
-    "lint": "standard --verbose | snazzy"
+    "lint": "standard --verbose | snazzy",
+    "test": "jest",
+    "cz": "git-cz",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "commitlint-travis": "commitlint-travis",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
@@ -18,8 +26,33 @@
   },
   "homepage": "https://github.com/asciidisco/cfp-magick#readme",
   "devDependencies": {
+    "@commitlint/cli": "6.0.1",
+    "@commitlint/config-conventional": "5.2.3",
+    "@commitlint/prompt": "6.0.1",
+    "@commitlint/travis-cli": "6.0.1",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "ghooks": "2.0.2",
+    "jest": "22.0.5",
+    "semantic-release": "^11.0.2",
+    "semantic-release-cli": "3.6.1",
     "snazzy": "7.0.0",
-    "standard": "10.0.3"
+    "standard": "10.0.3",
+    "travis-deploy-once": "^4.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "chalk": "2.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npm run lint",
+      "commit-msg": "npm run commitmsg",
+      "pre-push": "npm test",
+      "post-merge": "npm install",
+      "post-rewrite": "npm install"
+    }
+  }
 }
