@@ -11,8 +11,9 @@ node_js:
 script:
   - npm run commitlint-travis
   - npm run lint
-  - npm test
+  - npm run coverage
 after_success:
+  - npm run collect-coverage
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:

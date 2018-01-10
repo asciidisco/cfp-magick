@@ -9,6 +9,8 @@
   "scripts": {
     "lint": "standard --verbose | snazzy",
     "test": "jest",
+    "coverage": "jest --coverage --collectCoverageFrom=src/*js",
+    "collect-coverage": "codeclimate-test-reporter < ./coverage/lcov.info",    
     "cz": "git-cz",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "commitlint-travis": "commitlint-travis",
@@ -30,6 +32,7 @@
     "@commitlint/config-conventional": "5.2.3",
     "@commitlint/prompt": "6.0.1",
     "@commitlint/travis-cli": "6.0.1",
+    "codeclimate-test-reporter": "0.5.0",
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.1.0",
     "ghooks": "2.0.2",
