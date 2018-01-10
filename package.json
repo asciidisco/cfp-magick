@@ -1,0 +1,25 @@
+{
+  "name": "cfp-magick",
+  "version": "0.0.0-development",
+  "description": "Show JavaScript and Web conferences with open calls for papers in your terminal",
+  "main": "index.js",
+  "bin": {},
+  "scripts": {
+    "lint": "standard --verbose | snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asciidisco/cfp-magick.git"
+  },
+  "author": "Sebastian Golasch <public@asciidisco.com> (https://asciidisco.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asciidisco/cfp-magick/issues"
+  },
+  "homepage": "https://github.com/asciidisco/cfp-magick#readme",
+  "devDependencies": {
+    "snazzy": "7.0.0",
+    "standard": "10.0.3"
+  },
+  "dependencies": {}
+}
