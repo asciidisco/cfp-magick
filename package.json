@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/asciidisco/cfp-magick#readme",
   "devDependencies": {
+    "@commitlint/config-conventional": "6.1.0",
     "@commitlint/cli": "6.1.0",
-    "@commitlint/config-conventional": "6.0.4",
     "@commitlint/prompt": "6.1.0",
     "@commitlint/travis-cli": "6.0.5",
     "codeclimate-test-reporter": "0.5.0",
