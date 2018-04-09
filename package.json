@@ -38,7 +38,7 @@
     "ghooks": "2.0.2",
     "jest": "22.1.3",
     "semantic-release": "^15.0.0",
-    "semantic-release-cli": "3.6.4",
+    "semantic-release-cli": "3.6.5",
     "snazzy": "7.1.0",
     "standard": "11.0.1",
     "travis-deploy-once": "^4.3.0"
