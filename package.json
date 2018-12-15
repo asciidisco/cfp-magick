@@ -41,7 +41,7 @@
     "semantic-release-cli": "3.6.5",
     "snazzy": "7.1.0",
     "standard": "11.0.1",
-    "travis-deploy-once": "^4.3.0"
+    "travis-deploy-once": "^5.0.11"
   },
   "dependencies": {
     "chalk": "2.4.0"
