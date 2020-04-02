@@ -44,7 +44,7 @@
     "travis-deploy-once": "^4.3.0"
   },
   "dependencies": {
-    "chalk": "2.4.0"
+    "chalk": "4.0.0"
   },
   "config": {
     "commitizen": {
